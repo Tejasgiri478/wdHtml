@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    position: relative;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+    content: ' ▼';
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item:hover {
+    background-color: #555;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.navbar-search button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-search button:hover {
+    background-color: #666;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .navbar-nav.show {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-search {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .dropdown-menu {
+        position: static;
+        display: block;
+        /* Ensure dropdown menu is visible in mobile view */
+        box-shadow: none;
+        /* Optional: Remove box-shadow for mobile view */
+    }
+}
