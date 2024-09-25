@@ -1,0 +1,48 @@
+Q. WHAT IS GIT? 
+A.  Git is a free, open-source version control system (VCS) that helps developers collaborate on projects. 
+    It's the most widely used VCS in the world and is considered the modern standard for software development. 
+    
+    Here are some of the features that make Git so popular: 
+    
+    Distributed
+    Each developer maintains a local copy of the code repository, allowing them to work offline or remotely. 
+    
+    Branching and merging
+    Git allows developers to create branches for specific tasks and later merge changes into the main branch 
+    
+    Pull request.
+    These are tools that allow teams to review and approve code changes before merging them. 
+    
+    Snapshots
+    Git captures a snapshot of your project with each commit, allowing you to revert to any previous version easily. 
+    
+    Performance
+    Git is designed to be fast for committing changes, branching, merging, and comparing versions. 
+    
+    Support
+    Git is supported by nearly every development environment and has command line tools for every major operating system
+
+
+
+Q. WHAT IS GITHUB?
+A.  GitHub is an online platform that enables developers to manage, share, and collaborate on projects,
+    including code, websites, and other digital content.
+    
+    GitHub is built on Git, an open source version control software that helps track changes to code over  time.
+    Features of GitHub
+    
+    Collaboration
+    Enables several individuals to contribute to a project simultaneously.
+    
+    Version control
+    Helps reduce duplicative work and track changes to code.
+    
+    Social networking
+    Allows developers to network, collaborate, and pitch their work.
+    
+    Repositories
+    Stores a project's files and revision history, and can have multiple collaborators and owners.
+    
+    Ease of use
+    Easy to use for beginners, and only requires a few Git commands to learn how to push code.
+    GitHub supports millions of organizations and a vast developer community worldwide.
