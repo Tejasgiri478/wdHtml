@@ -1,0 +1,24 @@
+A URL (Uniform Resource Locator) is a unique address that identifies a resource on the internet, such as a web page, image, or file. URLs are similar to street addresses for buildings and houses, and they help people locate resources on the internet.
+    a) A unique address for a resource on the internet
+    b) Tells web browsers how to retrieve a resource
+    c) Made by a domain name, domain category, and sometimes other elements
+
+Absolute Url and Relative Url
+
+1) Absolute URLs provide a complete, standalone address for a resource on the internet. They include all the necessary components to locate the resource, such as:
+    I. Protocol: The method used to access the resource (e.g., HTTP, HTTPS, FTP)
+    II. Domain name: The unique identifier for the website or server hosting the resource
+    III. Path: The directory structure on the server leading to the resource file
+    IV. Query string: Optional parameters that can be passed to the resource
+example:
+https://www.example.com/about.html
+ftp://ftp.example.org/public/file.txt
+
+2) Relative URLs are incomplete addresses that rely on the context of the current page to be interpreted correctly. They are often used to link to resources within the same website or domain. Relative URLs can be:
+    I. Relative to the root: Begin with a slash (/) and refer to a resource at the root of the website.
+    II.Relative to the current directory: Do not begin with a slash and refer to a resource in the same or a subdirectory of the current page.
+    III.Relative to the parent directory: Begin with two dots (..) and refer to a resource in the parent directory of the current page.
+example:
+/contact.html (relative to the root)
+about.html (relative to the current directory)
+../index.html (relative to the parent directory)

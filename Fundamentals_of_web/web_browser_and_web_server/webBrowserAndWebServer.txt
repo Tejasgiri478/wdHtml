@@ -1,0 +1,15 @@
+A web browser enables users to navigate websites, while a web server hosts and delivers these sites to visitors.
+
+1) Web browser
+    A program designed for users to browse and interact with websites. 
+    Commonly used browsers are Google Chrome, Firefox, and Safari. 
+    Web browsers can store data like cookies, cache, and browsing history. 
+
+2) Web server
+    A server that stores and provides website content to visitors.
+    Web servers accept requests from web browsers and respond with the requested content. 
+    Common web servers include Apache and Microsoft’s IIS (Internet Information Services). 
+
+Web browsers and web servers communicate with each other using the Hypertext Transfer Protocol (HTTP). 
+Entering a URL in a browser prompts the browser to send an HTTP request to the appropriate web server.
+Although a single computer can act as both a web browser and a web server, these roles are typically performed separately.
