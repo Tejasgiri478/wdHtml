@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marquee Tag Use</title>
 </head>
-<body>
-    <h2> this is the use of html marquee tag </h2>
-    <marquee direction="right">
-        <p> Amitabh Bachhan | Tushar Kapoor | Ranbir Kapoor</p>
-    </marquee>
 
-    <marquee direction="left" scrolldelay="150">
+<body>
+    <h2 align="center"> this is the use of html marquee tag </h2>
+    <!-- marquee with default settings -->
+    <marquee direction="right">
+        <p> Amitabh Bachchan | Tushar Kapoor | Ranbir Kapoor</p>
+    </marquee>
+    <hr>
+    <!-- using scroll delay to slow down the movement speed -->
+    <marquee direction="left" scrolldelay="300">
         <p>
-            Amitabh Bachhan | Tushar Kapoor | Ranbir Kapoor
+            Amitabh Bachchan <br> Tushar Kapoor <br> Ranbir Kapoor
         </p>
     </marquee>
-
-    <marquee direction="left" scrolldelay="150" onmouseover="stop(this.value)" onmouseout="stat(this.value)">
+    <hr>
+    <!-- using attributes of marquee to apply effects -->
+    <h4 align="center"> using script to pause and resume movement</h4>
+    <marquee direction="left" scrolldelay="120" onmouseover="stop(this.value)" onmouseout="start(this.value)">
         <p>
-            Amitabh Bachhan | Tushar Kapoor | Ranbir Kapoor
+            Amitabh Bachchan<br>
+            Tushar Kapoor <br>
+            Ranbir Kapoor
         </p>
     </marquee>
 </body>
+
 </html>
