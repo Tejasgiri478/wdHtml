@@ -49,8 +49,8 @@ To follow along with this project, you will need:
 1. **A Code Editor:** [VS Code](https://code.visualstudio.com/) or any other.
 1. **Git:** Download and install [Git](https://git-scm.com/).
 1. **GitHub Account:** Sign up on [GitHub](https://github.com/).
-To set up:
 
+To set up:
 Clone the repository
 
 `git clone https://github.com/your-username/fundamentals-web-github-html.git`
