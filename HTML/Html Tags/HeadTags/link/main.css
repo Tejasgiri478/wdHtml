@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(190, 149, 228);
+    margin: auto;
+    color: rgb(68, 38, 144);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+p {
+    background-color: aquamarine;
+}
