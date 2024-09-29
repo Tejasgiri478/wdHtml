@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(97, 97, 241);
+    padding-top: 150px;
+}
+
+div {
+    background-color: aliceblue;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin-left: 6%;
+}
+h1 {
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-left: 23px;
+    width: 85%;
+    background-color: rgb(72, 72, 243);
+    border-radius: 5px;
+    padding: auto;
+}
