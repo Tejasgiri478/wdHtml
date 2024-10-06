@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan</title>
+    <style>
+        table {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center" width="400px"  height="200px">
+        <caption>This tag is for Rowspan</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                <th>Max seving of the month</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>$200</td>
+                <td rowspan="3"> January ($200)</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>$170</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>$180</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
