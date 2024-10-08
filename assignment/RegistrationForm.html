@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="css/registarion.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Employee Registration Form</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label>Gender :</label>
+            <div class="gender-group">
+                <label><input type="radio" name="gender" value="Mr." required> &nbsp;&nbsp;Mr.</label>
+                <label><input type="radio" name="gender" value="Mrs." required> &nbsp;&nbsp;Mrs.</label>
+                <label><input type="radio" name="gender" value="Ms." required> &nbsp;&nbsp;Ms.</label>
+            </div>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+            <label for="mail1">Mail Address 1</label>
+            <input type="text" id="mail1" name="mail1" placeholder="Address Line 1" required>
+
+            <label for="mail2">Mail Address 2</label>
+            <input type="text" id="mail2" name="mail2" placeholder="Address Line 2">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="City" required>
+
+            <label for="state">State</label>
+            <select id="state" name="state" required>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <!-- Add more states as needed -->
+            </select>
+
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" name="photo">
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+            <label for="mobile">Mobile</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="+91" required>
+
+            <label>Languages Known</label>
+            <div class="language-group">
+                <label><input type="checkbox" name="languages" value="Gujarati"> Gujarati</label>
+                <label><input type="checkbox" name="languages" value="Hindi"> Hindi</label>
+                <label><input type="checkbox" name="languages" value="English"> English</label>
+                <label><input type="checkbox" name="languages" value="Marathi"> Marathi</label>
+            </div>
+
+            <label for="info">Additional Information</label>
+            <textarea id="info" name="info" rows="4" placeholder="Optional"></textarea>
+
+            <div class="submit-btns">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
