@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="WebPage.html">My Home</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="WebPage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="store.html">Store</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Help Section -->
+    <section class="help-section">
+        <div class="help-container">
+            <h1>Help & Support</h1>
+            <p>If you have any questions or need assistance, you can find answers to common questions below.</p>
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+                <li><strong>Question 1:</strong> How do I reset my password?</li>
+                <li><strong>Question 2:</strong> How can I contact customer support?</li>
+                <li><strong>Question 3:</strong> Where can I find my order history?</li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

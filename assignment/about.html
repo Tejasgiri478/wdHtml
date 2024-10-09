@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="WebPage.html">My Home</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="WebPage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="store.html">Store</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <h1>About Us</h1>
+            <p>Welcome to our website! We are dedicated to providing you with the best service possible.</p>
+            <p>Our team is passionate about delivering high-quality products and exceptional customer service. We believe in creating lasting relationships with our customers.</p>
+            <p>Thank you for visiting us, and we hope to serve you soon!</p>
+        </div>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

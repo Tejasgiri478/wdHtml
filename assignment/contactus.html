@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="WebPage.html">My Home</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="WebPage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="store.html">Store</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" style="background-image: url(Images/contactUs.jpeg);">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need further information, feel free to reach out to us. We're here to help!
+            </p>
+            <p>Email: support@yourwebsite.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 Your Street, Your City, Your Country</p>
+        </div>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
