@@ -254,7 +254,13 @@ footer {
     }
 
     .fullscreen-image img {
+        width: 100%;
         height: auto;
+    }
+
+    .fullscreen-image {
+        height: calc(100vh - 45px);
+        max-height: fit-content;
     }
 
     .form-group {
